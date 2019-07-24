@@ -79,7 +79,7 @@ Go to the Debug Console and enter the following command, remembering to use your
 
 If you no longer wish to operate your Masternode, stop running MN01 on your VPS.
 
-    ./gex-cli stop
+    gex-cli stop
 
 Then from your controller wallet, edit your masternode.conf by deleting the MN01 masternode line entry.  Now restart the controller wallet and your 5,000 GEX collateral will now be unlocked.
 
@@ -156,7 +156,7 @@ masternodename - название ноды которое вы дали, ipaddre
 # Остановка мастерноды
 
 На VPS запускаем
-    ./gex-cli stop
+    gex-cli stop
     
 Останавливаем главный кошелёк в файле masternode.conf перед строкой ноды MN01..... ставим #
 Перезапускаем кошелёк - сливаем монеты.
