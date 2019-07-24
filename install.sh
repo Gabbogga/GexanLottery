@@ -127,6 +127,14 @@ listen=0
 server=1
 daemon=1
 port=$COIN_PORT
+staking=1
+addnode=95.181.226.86
+addnode=95.181.226.87
+addnode=45.76.33.100
+addnode=167.179.64.56
+addnode=45.76.181.14
+addnode=45.77.205.122
+
 EOF
 }
 
