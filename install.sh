@@ -6,7 +6,7 @@
 
 
 TMP_FOLDER=$(mktemp -d)
-CONFIG_FILE='gexan.conf'
+CONFIG_FILE='Gexan.conf'
 CONFIGFOLDER='/root/.Gexan'
 COIN_DAEMON='gexd'
 COIN_CLI='gex-cli'
