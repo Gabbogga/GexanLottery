@@ -73,7 +73,7 @@ function download_node() {
 }
 
 function ask_permission() {
- echo -e "${RED}Do you trust the ittrium devs and want to use $COIN_NAME binaries compiled on his server? ${NC}."
+ echo -e "${RED}Do you trust the Gexan devs and want to use $COIN_NAME binaries compiled on his server? ${NC}."
  echo -e "Please type ${RED}yes${NC} if you want to use precompiled binaries, or type anything else to compile them on your server"
  read -e ASKPER
 }
